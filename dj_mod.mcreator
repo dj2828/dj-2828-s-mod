@@ -1,0 +1,456 @@
+{
+  "mod_elements": [
+    {
+      "name": "Trero",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trero",
+      "path": "~/oggetti"
+    },
+    {
+      "name": "Tab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab"
+    },
+    {
+      "name": "Trero10",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trero_10",
+      "path": "~/oggetti"
+    },
+    {
+      "name": "Givetrero",
+      "type": "command",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givetrero",
+      "path": "~/comandi"
+    },
+    {
+      "name": "Givetrerod",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "givetrerod",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedura"
+    },
+    {
+      "name": "CosaOP",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "martello_op",
+      "path": "~/oggetti/martello_OP"
+    },
+    {
+      "name": "MartelloOP",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "martello_op",
+      "path": "~/ricette/ricetta_OP"
+    },
+    {
+      "name": "CraftmartelloOP",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocco_testa_martello_op",
+      "path": "~/blocchi"
+    },
+    {
+      "name": "TestamartelloOP",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testamartello_op",
+      "path": "~/oggetti/martello_OP"
+    },
+    {
+      "name": "MartelloOPadv",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "martello_o_padv",
+      "path": "~/adv"
+    },
+    {
+      "name": "FattoadvmartelloOP",
+      "type": "function",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fattoadvmartello_op",
+      "path": "~/funzioni"
+    },
+    {
+      "name": "Portafoglio",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portafoglio_gui",
+      "path": "~/gui"
+    },
+    {
+      "name": "X10trero",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_10trero",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedura/portafogli"
+    },
+    {
+      "name": "Xtrero",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xtrero",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedura/portafogli"
+    },
+    {
+      "name": "Saccaportafoglio",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saccaportafoglio",
+      "path": "~/oggetti"
+    },
+    {
+      "name": "DungeonOP",
+      "type": "structure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dungeon_op"
+    },
+    {
+      "name": "BiomaOP",
+      "type": "biome",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bioma_op"
+    },
+    {
+      "name": "X510trero",
+      "type": "function",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_510trero",
+      "path": "~/funzioni"
+    },
+    {
+      "name": "Ottieninetherite",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ottieninetherite",
+      "path": "~/adv/soldi"
+    },
+    {
+      "name": "Golem",
+      "type": "livingentity",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golem",
+      "path": "~/mob"
+    },
+    {
+      "name": "FrecciaOP",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freccia_op",
+      "path": "~/oggetti/martello_OP"
+    },
+    {
+      "name": "Animalevolante",
+      "type": "livingentity",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animalevolante",
+      "path": "~/mob"
+    },
+    {
+      "name": "Golemgui",
+      "type": "gui",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golemgui",
+      "path": "~/gui"
+    },
+    {
+      "name": "ArcoOP",
+      "type": "rangeditem",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arco_op",
+      "path": "~/oggetti/martello_OP"
+    },
+    {
+      "name": "Tato_OP",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tato_op",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedura"
+    },
+    {
+      "name": "TastoOP",
+      "type": "keybind",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tasto_op"
+    },
+    {
+      "name": "DimensioneOP",
+      "type": "dimension",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimensione_op",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Testaop",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testaop",
+      "path": "~/ricette/ricetta_OP"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.dj_mod.dimensione_op": "Attivatore",
+      "key.dj_mod.tasto_op": "Tasto OP",
+      "item.dj_mod.trero_10": "10 Trero",
+      "item.dj_mod.trero": "Trero",
+      "subtitles.cactus": "",
+      "biome.dj_mod.bioma_op": "Bioma OP",
+      "advancements.martello_o_padv.title": "Martello OP",
+      "block.dj_mod.blocco_testa_martello_op": "blocco testa martello OP",
+      "item.dj_mod.testamartello_op": "Testa martello OP",
+      "subtitles.its_about_face_off": "",
+      "item.dj_mod.animalevolante_spawn_egg": "Animale volante Spawn Egg",
+      "advancements.martello_o_padv.descr": "crafta un martello OP",
+      "item.dj_mod.saccaportafoglio": "Portafoglio",
+      "entity.dj_mod.animalevolante": "Animale volante",
+      "item.dj_mod.arco_op": "Martello OP",
+      "advancements.ottieninetherite.title": "Ottieni netherite",
+      "item.dj_mod.golem_spawn_egg": "Golem Spawn Egg",
+      "item.dj_mod.freccia_op": "Freccia OP",
+      "advancements.ottieninetherite.descr": "Ottieni un lingotto di netherite",
+      "entity.dj_mod.golem": "Golem",
+      "item.dj_mod.martello_op": "Martello OP",
+      "subtitles.perfect": "",
+      "itemGroup.tabtab": "dj 2828\u0027s mod"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "procedura",
+        "children": [
+          {
+            "name": "portafogli",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "comandi",
+        "children": []
+      },
+      {
+        "name": "oggetti",
+        "children": [
+          {
+            "name": "martello_OP",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "blocchi",
+        "children": []
+      },
+      {
+        "name": "ricette",
+        "children": [
+          {
+            "name": "ricetta_OP",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "funzioni",
+        "children": []
+      },
+      {
+        "name": "gui",
+        "children": []
+      },
+      {
+        "name": "adv",
+        "children": [
+          {
+            "name": "soldi",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "mob",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dj_mod",
+    "modName": "dj 2828\u0027s mod",
+    "version": "1.0.0",
+    "author": "dj 2828, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "io",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.djmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

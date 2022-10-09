@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dj_mod:blocco_testa_martello_op"
+  },
+  "result": "dj_mod:testamartello_op"
+}

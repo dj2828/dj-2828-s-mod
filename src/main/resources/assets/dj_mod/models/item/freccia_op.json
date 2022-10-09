@@ -1,0 +1,7 @@
+{
+  "parent": "dj_mod:custom/freccia_op",
+  "textures": {
+    "0": "dj_mod:blocks/freccia_op",
+    "particle": "dj_mod:items/martello"
+  }
+}

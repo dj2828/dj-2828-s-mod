@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dj_mod:blocks/craft_martello_op",
+    "particle": "dj_mod:blocks/craft_martello_op"
+  }
+}

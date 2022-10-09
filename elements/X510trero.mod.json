@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "function",
+  "definition": {
+    "code": "# Enter the function code here\n\ngive @p dj_mod:trero_10 5",
+    "name": "x_5_10trero",
+    "namespace": "mod"
+  }
+}

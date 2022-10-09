@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Y",
+    "keyBindingName": "Tasto OP",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "Tato_OP"
+    }
+  }
+}

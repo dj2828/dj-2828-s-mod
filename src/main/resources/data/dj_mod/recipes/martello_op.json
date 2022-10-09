@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "dj_mod:testamartello_op"
+    },
+    "2": {
+      "item": "minecraft:diamond_block"
+    },
+    "4": {
+      "item": "minecraft:bamboo"
+    },
+    "7": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "dj_mod:martello_op",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "cactus": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dj_mod:cactus_su_uno_skateboard",
+        "stream": true
+      }
+    ]
+  },
+  "its_about_face_off": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "dj_mod:its_about_face_off_3",
+        "stream": true
+      }
+    ]
+  }
+}

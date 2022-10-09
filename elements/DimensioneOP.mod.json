@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:BiomaOP"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.QUARTZ_BLOCK#3"
+    },
+    "fluidBlock": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "airColor": {
+      "value": -43776,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.NETHERITE_BLOCK"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Attivatore",
+    "igniterTab": {
+      "value": "CUSTOM:Tab"
+    },
+    "texture": "attivatore",
+    "portalTexture": "portale",
+    "enablePortal": true
+  }
+}

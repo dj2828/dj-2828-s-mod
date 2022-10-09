@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dj_mod:block/dimensione_op_portal_ew"
+    },
+    "axis=x": {
+      "model": "dj_mod:block/dimensione_op_portal_ns"
+    }
+  }
+}

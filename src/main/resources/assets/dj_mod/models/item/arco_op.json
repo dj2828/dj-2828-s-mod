@@ -1,0 +1,7 @@
+{
+  "parent": "dj_mod:custom/martello",
+  "textures": {
+    "0": "dj_mod:blocks/martello",
+    "particle": "dj_mod:items/martello"
+  }
+}
