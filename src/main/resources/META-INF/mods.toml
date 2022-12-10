@@ -10,6 +10,9 @@ credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 authors="dj 2828, MCreator"
+description='''
+'bella sta mod' disse dj 2828
+'''
 
 [[dependencies.dj_mod]]
     modId="minecraft"
