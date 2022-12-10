@@ -349,6 +349,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "treroscambio"
+    },
+    {
+      "name": "Attivatore",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attivatore",
+      "path": "~/ricette"
     }
   ],
   "variable_elements": [],
