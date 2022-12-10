@@ -24,9 +24,12 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.djmod.world.teleporter.DimensioneOPTeleporter;
 import net.mcreator.djmod.world.teleporter.DimensioneOPPortalShape;
+import net.mcreator.djmod.init.DjModModBlocks;
 
 import java.util.Random;
 import java.util.Optional;
@@ -103,5 +106,10 @@ public class DimensioneOPPortalBlock extends NetherPortalBlock {
 	private void teleportToDimension(Entity entity, BlockPos pos, ResourceKey<Level> destinationType) {
 		entity.changeDimension(entity.getServer().getLevel(destinationType),
 				new DimensioneOPTeleporter(entity.getServer().getLevel(destinationType), pos));
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(DjModModBlocks.DIMENSIONE_OP_PORTAL.get(), renderType -> renderType == RenderType.translucent());
 	}
 }

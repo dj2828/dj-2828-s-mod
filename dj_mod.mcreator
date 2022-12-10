@@ -341,6 +341,14 @@
       "locked_code": false,
       "registry_name": "testaop",
       "path": "~/ricette/ricetta_OP"
+    },
+    {
+      "name": "Treroscambio",
+      "type": "villagertrade",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "treroscambio"
     }
   ],
   "variable_elements": [],
@@ -350,23 +358,23 @@
       "item.dj_mod.dimensione_op": "Attivatore",
       "key.dj_mod.tasto_op": "Tasto OP",
       "item.dj_mod.trero_10": "10 Trero",
+      "biome.dj_mod.bioma_op": "Bioma OP",
       "item.dj_mod.trero": "Trero",
       "subtitles.cactus": "",
-      "biome.dj_mod.bioma_op": "Bioma OP",
       "advancements.martello_o_padv.title": "Martello OP",
       "block.dj_mod.blocco_testa_martello_op": "blocco testa martello OP",
       "item.dj_mod.testamartello_op": "Testa martello OP",
-      "subtitles.its_about_face_off": "",
       "item.dj_mod.animalevolante_spawn_egg": "Animale volante Spawn Egg",
+      "subtitles.its_about_face_off": "",
       "advancements.martello_o_padv.descr": "crafta un martello OP",
       "item.dj_mod.saccaportafoglio": "Portafoglio",
       "entity.dj_mod.animalevolante": "Animale volante",
       "item.dj_mod.arco_op": "Martello OP",
-      "advancements.ottieninetherite.title": "Ottieni netherite",
       "item.dj_mod.golem_spawn_egg": "Golem Spawn Egg",
       "item.dj_mod.freccia_op": "Freccia OP",
-      "advancements.ottieninetherite.descr": "Ottieni un lingotto di netherite",
+      "advancements.ottieninetherite.title": "Ottieni netherite",
       "entity.dj_mod.golem": "Golem",
+      "advancements.ottieninetherite.descr": "Ottieni un lingotto di netherite",
       "item.dj_mod.martello_op": "Martello OP",
       "subtitles.perfect": "",
       "itemGroup.tabtab": "dj 2828\u0027s mod"
@@ -452,5 +460,5 @@
     "modElementsPackage": "net.mcreator.djmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200348217
 }
