@@ -358,6 +358,15 @@
       "locked_code": false,
       "registry_name": "attivatore",
       "path": "~/ricette"
+    },
+    {
+      "name": "Portafogliocraft",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portafogliocraft",
+      "path": "~/ricette"
     }
   ],
   "variable_elements": [],
