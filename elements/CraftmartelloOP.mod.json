@@ -33,8 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "blocco testa martello OP",
-    "specialInfo": [],
+    "name": "Blocco OP",
+    "specialInfo": [
+      "blocco per craftare cose OP"
+    ],
     "hardness": 1.0,
     "resistance": 10000.0,
     "hasGravity": false,

@@ -367,34 +367,89 @@
       "locked_code": false,
       "registry_name": "portafogliocraft",
       "path": "~/ricette"
+    },
+    {
+      "name": "Armaturaop",
+      "type": "armor",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armaturaop",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/oggetti"
+    },
+    {
+      "name": "ElmoOP",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elmo_op",
+      "path": "~/ricette/ricetta_armor_OP"
+    },
+    {
+      "name": "ChestplateOP",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chestplate_op",
+      "path": "~/ricette/ricetta_armor_OP"
+    },
+    {
+      "name": "StivaliOP",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stivali_op",
+      "path": "~/ricette/ricetta_armor_OP"
+    },
+    {
+      "name": "PantaloniOP",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pantaloni_op",
+      "path": "~/ricette/ricetta_armor_OP"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.dj_mod.trero_10": "10 Trero",
+      "item.dj_mod.trero": "Trero",
+      "biome.dj_mod.bioma_op": "Bioma OP",
+      "advancements.martello_o_padv.title": "Martello OP",
+      "block.dj_mod.blocco_testa_martello_op": "Blocco OP",
+      "item.dj_mod.animalevolante_spawn_egg": "Animale volante Spawn Egg",
+      "advancements.martello_o_padv.descr": "crafta un martello OP",
+      "entity.dj_mod.animalevolante": "Animale volante",
+      "item.dj_mod.freccia_op": "Freccia OP",
+      "item.dj_mod.golem_spawn_egg": "Golem Spawn Egg",
+      "entity.dj_mod.golem": "Golem",
+      "subtitles.perfect": "",
+      "item.dj_mod.armaturaop_leggings": "Gambiere OP",
+      "item.dj_mod.armaturaop_boots": "Stivali OP",
       "item.dj_mod.dimensione_op": "Attivatore",
       "key.dj_mod.tasto_op": "Tasto OP",
-      "item.dj_mod.trero_10": "10 Trero",
-      "biome.dj_mod.bioma_op": "Bioma OP",
-      "item.dj_mod.trero": "Trero",
       "subtitles.cactus": "",
-      "advancements.martello_o_padv.title": "Martello OP",
-      "block.dj_mod.blocco_testa_martello_op": "blocco testa martello OP",
       "item.dj_mod.testamartello_op": "Testa martello OP",
-      "item.dj_mod.animalevolante_spawn_egg": "Animale volante Spawn Egg",
       "subtitles.its_about_face_off": "",
-      "advancements.martello_o_padv.descr": "crafta un martello OP",
+      "item.dj_mod.armaturaop_helmet": "Elmo OP",
+      "item.dj_mod.armaturaop_chestplate": "Corazza OP",
       "item.dj_mod.saccaportafoglio": "Portafoglio",
-      "entity.dj_mod.animalevolante": "Animale volante",
       "item.dj_mod.arco_op": "Martello OP",
-      "item.dj_mod.golem_spawn_egg": "Golem Spawn Egg",
-      "item.dj_mod.freccia_op": "Freccia OP",
       "advancements.ottieninetherite.title": "Ottieni netherite",
-      "entity.dj_mod.golem": "Golem",
       "advancements.ottieninetherite.descr": "Ottieni un lingotto di netherite",
       "item.dj_mod.martello_op": "Martello OP",
-      "subtitles.perfect": "",
       "itemGroup.tabtab": "dj 2828\u0027s mod"
     }
   },
@@ -432,6 +487,10 @@
         "children": [
           {
             "name": "ricetta_OP",
+            "children": []
+          },
+          {
+            "name": "ricetta_armor_OP",
             "children": []
           }
         ]

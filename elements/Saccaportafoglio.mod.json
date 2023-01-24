@@ -25,7 +25,6 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "portafoglio",
       "fai clic destro"
     ],
     "hasGlow": false,

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dj_mod:trero_10"
+    },
+    "1": {
+      "item": "dj_mod:blocco_testa_martello_op"
+    },
+    "2": {
+      "item": "dj_mod:trero_10"
+    },
+    "3": {
+      "item": "dj_mod:trero_10"
+    },
+    "4": {
+      "item": "dj_mod:trero_10"
+    },
+    "5": {
+      "item": "dj_mod:trero_10"
+    },
+    "6": {
+      "item": "dj_mod:trero_10"
+    },
+    "7": {
+      "item": "dj_mod:trero_10"
+    },
+    "8": {
+      "item": "dj_mod:trero_10"
+    }
+  },
+  "result": {
+    "item": "dj_mod:armaturaop_chestplate",
+    "count": 1
+  }
+}

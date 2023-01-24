@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "dj_mod:trero_10"
+    },
+    "2": {
+      "item": "dj_mod:trero_10"
+    },
+    "3": {
+      "item": "dj_mod:trero_10"
+    },
+    "4": {
+      "item": "dj_mod:blocco_testa_martello_op"
+    },
+    "5": {
+      "item": "dj_mod:trero_10"
+    }
+  },
+  "result": {
+    "item": "dj_mod:armaturaop_boots",
+    "count": 1
+  }
+}

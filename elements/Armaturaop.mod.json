@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "armor_op_head",
+    "enableBody": true,
+    "textureBody": "armor_op_body",
+    "enableLeggings": true,
+    "textureLeggings": "armor_op_leggings",
+    "enableBoots": true,
+    "textureBoots": "armor_op_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Tab"
+    },
+    "armorTextureFile": "armor_op",
+    "helmetName": "Elmo OP",
+    "bodyName": "Corazza OP",
+    "leggingsName": "Gambiere OP",
+    "bootsName": "Stivali OP",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modelelmo_OP",
+    "helmetModelPart": "bone",
+    "helmetModelTexture": "elmo_op.png",
+    "bodyModelName": "Modelchestplate_OP",
+    "bodyModelPart": "bone",
+    "armsModelPartL": "bone2",
+    "armsModelPartR": "bone2",
+    "bodyModelTexture": "chestplate_op.png",
+    "leggingsModelName": "Modelchestplate_OP",
+    "leggingsModelPartL": "bone2",
+    "leggingsModelPartR": "bone2",
+    "leggingsModelTexture": "chestplate_op.png",
+    "bootsModelName": "Modelchestplate_OP",
+    "bootsModelPartL": "bone2",
+    "bootsModelPartR": "bone2",
+    "bootsModelTexture": "chestplate_op.png",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 1024,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 10,
+    "toughness": 10.0,
+    "knockbackResistance": 5.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Trero10"
+      }
+    ]
+  }
+}

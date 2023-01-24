@@ -14,7 +14,6 @@
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [
-      "TestaOP",
       "MartelloOP"
     ],
     "rewardFunction": "X510trero",

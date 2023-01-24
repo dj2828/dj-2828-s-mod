@@ -21,6 +21,7 @@ import net.mcreator.djmod.item.SaccaportafoglioItem;
 import net.mcreator.djmod.item.FrecciaOPItem;
 import net.mcreator.djmod.item.DimensioneOPItem;
 import net.mcreator.djmod.item.CosaOPItem;
+import net.mcreator.djmod.item.ArmaturaopItem;
 import net.mcreator.djmod.item.ArcoOPItem;
 import net.mcreator.djmod.DjModMod;
 
@@ -39,6 +40,11 @@ public class DjModModItems {
 			() -> new ForgeSpawnEggItem(DjModModEntities.ANIMALEVOLANTE, -43776, -16776706, new Item.Properties().tab(DjModModTabs.TAB_TAB)));
 	public static final RegistryObject<Item> ARCO_OP = REGISTRY.register("arco_op", () -> new ArcoOPItem());
 	public static final RegistryObject<Item> DIMENSIONE_OP = REGISTRY.register("dimensione_op", () -> new DimensioneOPItem());
+	public static final RegistryObject<Item> ARMATURAOP_HELMET = REGISTRY.register("armaturaop_helmet", () -> new ArmaturaopItem.Helmet());
+	public static final RegistryObject<Item> ARMATURAOP_CHESTPLATE = REGISTRY.register("armaturaop_chestplate",
+			() -> new ArmaturaopItem.Chestplate());
+	public static final RegistryObject<Item> ARMATURAOP_LEGGINGS = REGISTRY.register("armaturaop_leggings", () -> new ArmaturaopItem.Leggings());
+	public static final RegistryObject<Item> ARMATURAOP_BOOTS = REGISTRY.register("armaturaop_boots", () -> new ArmaturaopItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
