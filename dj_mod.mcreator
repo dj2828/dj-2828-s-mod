@@ -3,7 +3,7 @@
     {
       "name": "Trero",
       "type": "item",
-      "sortid": 1,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trero",
@@ -12,7 +12,7 @@
     {
       "name": "Tab",
       "type": "tab",
-      "sortid": 3,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tab"
@@ -20,7 +20,7 @@
     {
       "name": "Trero10",
       "type": "item",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trero_10",
@@ -29,7 +29,7 @@
     {
       "name": "Givetrero",
       "type": "command",
-      "sortid": 5,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "givetrero",
@@ -38,7 +38,7 @@
     {
       "name": "Givetrerod",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "givetrerod",
@@ -67,7 +67,7 @@
     {
       "name": "CosaOP",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "martello_op",
@@ -76,7 +76,7 @@
     {
       "name": "MartelloOP",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "martello_op",
@@ -85,7 +85,7 @@
     {
       "name": "CraftmartelloOP",
       "type": "block",
-      "sortid": 12,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocco_testa_martello_op",
@@ -94,7 +94,7 @@
     {
       "name": "TestamartelloOP",
       "type": "item",
-      "sortid": 14,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "testamartello_op",
@@ -103,7 +103,7 @@
     {
       "name": "MartelloOPadv",
       "type": "achievement",
-      "sortid": 15,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "martello_o_padv",
@@ -112,7 +112,7 @@
     {
       "name": "FattoadvmartelloOP",
       "type": "function",
-      "sortid": 16,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fattoadvmartello_op",
@@ -121,7 +121,7 @@
     {
       "name": "Portafoglio",
       "type": "gui",
-      "sortid": 17,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "portafoglio_gui",
@@ -130,7 +130,7 @@
     {
       "name": "X10trero",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "x_10trero",
@@ -163,7 +163,7 @@
     {
       "name": "Xtrero",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xtrero",
@@ -196,7 +196,7 @@
     {
       "name": "Saccaportafoglio",
       "type": "item",
-      "sortid": 20,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "saccaportafoglio",
@@ -205,7 +205,7 @@
     {
       "name": "DungeonOP",
       "type": "structure",
-      "sortid": 21,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dungeon_op"
@@ -213,7 +213,7 @@
     {
       "name": "BiomaOP",
       "type": "biome",
-      "sortid": 22,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bioma_op"
@@ -221,7 +221,7 @@
     {
       "name": "X510trero",
       "type": "function",
-      "sortid": 23,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "x_510trero",
@@ -230,7 +230,7 @@
     {
       "name": "Ottieninetherite",
       "type": "achievement",
-      "sortid": 23,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ottieninetherite",
@@ -239,7 +239,7 @@
     {
       "name": "Golem",
       "type": "livingentity",
-      "sortid": 24,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golem",
@@ -248,7 +248,7 @@
     {
       "name": "FrecciaOP",
       "type": "item",
-      "sortid": 25,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "freccia_op",
@@ -257,7 +257,7 @@
     {
       "name": "Animalevolante",
       "type": "livingentity",
-      "sortid": 26,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "animalevolante",
@@ -266,7 +266,7 @@
     {
       "name": "Golemgui",
       "type": "gui",
-      "sortid": 27,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golemgui",
@@ -275,7 +275,7 @@
     {
       "name": "ArcoOP",
       "type": "rangeditem",
-      "sortid": 28,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arco_op",
@@ -284,7 +284,7 @@
     {
       "name": "Tato_OP",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tato_op",
@@ -317,7 +317,7 @@
     {
       "name": "TastoOP",
       "type": "keybind",
-      "sortid": 29,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tasto_op"
@@ -325,7 +325,7 @@
     {
       "name": "DimensioneOP",
       "type": "dimension",
-      "sortid": 30,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimensione_op",
@@ -336,7 +336,7 @@
     {
       "name": "Testaop",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "testaop",
@@ -345,7 +345,7 @@
     {
       "name": "Treroscambio",
       "type": "villagertrade",
-      "sortid": 32,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "treroscambio"
@@ -353,7 +353,7 @@
     {
       "name": "Attivatore",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "attivatore",
@@ -362,7 +362,7 @@
     {
       "name": "Portafogliocraft",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "portafogliocraft",
@@ -371,7 +371,7 @@
     {
       "name": "Armaturaop",
       "type": "armor",
-      "sortid": 35,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "armaturaop",
@@ -386,7 +386,7 @@
     {
       "name": "ElmoOP",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elmo_op",
@@ -395,7 +395,7 @@
     {
       "name": "ChestplateOP",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chestplate_op",
@@ -404,7 +404,7 @@
     {
       "name": "StivaliOP",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stivali_op",
@@ -413,7 +413,7 @@
     {
       "name": "PantaloniOP",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pantaloni_op",
@@ -432,8 +432,8 @@
       "item.dj_mod.animalevolante_spawn_egg": "Animale volante Spawn Egg",
       "advancements.martello_o_padv.descr": "crafta un martello OP",
       "entity.dj_mod.animalevolante": "Animale volante",
-      "item.dj_mod.freccia_op": "Freccia OP",
       "item.dj_mod.golem_spawn_egg": "Golem Spawn Egg",
+      "item.dj_mod.freccia_op": "Freccia OP",
       "entity.dj_mod.golem": "Golem",
       "subtitles.perfect": "",
       "item.dj_mod.armaturaop_leggings": "Gambiere OP",
