@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 39,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -16,10 +16,14 @@
           "inputLimit": {
             "value": "CUSTOM:Trero"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 0,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": false,
-          "name": "Slot #0",
           "x": 132,
           "y": 35
         }
@@ -30,10 +34,14 @@
           "inputLimit": {
             "value": "CUSTOM:Trero"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 1,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": false,
-          "name": "Slot #1",
           "x": 150,
           "y": 35
         }
@@ -44,10 +52,14 @@
           "inputLimit": {
             "value": "CUSTOM:Trero"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 2,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": false,
-          "name": "Slot #2",
           "x": 168,
           "y": 35
         }
@@ -58,10 +70,14 @@
           "inputLimit": {
             "value": "CUSTOM:Trero"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 3,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": false,
-          "name": "Slot #3",
           "x": 186,
           "y": 35
         }
@@ -69,29 +85,29 @@
       {
         "type": "button",
         "data": {
+          "name": "button_x1_10_trero",
           "text": "X1 10 Trero",
           "onClick": {
             "name": "X10trero"
           },
           "width": 72,
           "height": 20,
-          "name": "X1 10 Trero",
-          "x": 222,
-          "y": 98
+          "x": 213,
+          "y": 89
         }
       },
       {
         "type": "button",
         "data": {
+          "name": "button_x1_trero",
           "text": "X1 Trero",
           "onClick": {
             "name": "Xtrero"
           },
           "width": 61,
           "height": 20,
-          "name": "X1 Trero",
-          "x": 231,
-          "y": 71
+          "x": 132,
+          "y": 89
         }
       },
       {
@@ -100,10 +116,14 @@
           "inputLimit": {
             "value": "CUSTOM:Trero10"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 4,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": false,
-          "name": "Slot #4",
           "x": 132,
           "y": 62
         }
@@ -114,10 +134,14 @@
           "inputLimit": {
             "value": "CUSTOM:Trero10"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 5,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": false,
-          "name": "Slot #5",
           "x": 150,
           "y": 62
         }
@@ -128,10 +152,14 @@
           "inputLimit": {
             "value": "CUSTOM:Trero10"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 6,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #6",
           "x": 168,
           "y": 62
         }
@@ -142,10 +170,14 @@
           "inputLimit": {
             "value": "CUSTOM:Trero10"
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 7,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #7",
           "x": 186,
           "y": 62
         }

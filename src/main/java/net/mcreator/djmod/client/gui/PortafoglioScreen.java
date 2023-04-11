@@ -5,7 +5,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
@@ -25,6 +25,8 @@ public class PortafoglioScreen extends AbstractContainerScreen<PortafoglioMenu> 
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_x1_10_trero;
+	Button button_x1_trero;
 
 	public PortafoglioScreen(PortafoglioMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -89,17 +91,21 @@ public class PortafoglioScreen extends AbstractContainerScreen<PortafoglioMenu> 
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 97, this.topPos + 76, 72, 20, new TextComponent("X1 10 Trero"), e -> {
+		button_x1_10_trero = new Button(this.leftPos + 88, this.topPos + 67, 72, 20, new TranslatableComponent("gui.dj_mod.portafoglio_gui.button_x1_10_trero"), e -> {
 			if (true) {
 				DjModMod.PACKET_HANDLER.sendToServer(new PortafoglioButtonMessage(0, x, y, z));
 				PortafoglioButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}));
-		this.addRenderableWidget(new Button(this.leftPos + 106, this.topPos + 49, 61, 20, new TextComponent("X1 Trero"), e -> {
+		});
+		guistate.put("button:button_x1_10_trero", button_x1_10_trero);
+		this.addRenderableWidget(button_x1_10_trero);
+		button_x1_trero = new Button(this.leftPos + 7, this.topPos + 67, 61, 20, new TranslatableComponent("gui.dj_mod.portafoglio_gui.button_x1_trero"), e -> {
 			if (true) {
 				DjModMod.PACKET_HANDLER.sendToServer(new PortafoglioButtonMessage(1, x, y, z));
 				PortafoglioButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}));
+		});
+		guistate.put("button:button_x1_trero", button_x1_trero);
+		this.addRenderableWidget(button_x1_trero);
 	}
 }

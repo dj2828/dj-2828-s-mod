@@ -7,6 +7,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "trero",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dj_mod/models/item/trero.json",
+          "src/main/java/net/mcreator/djmod/item/TreroItem.java"
+        ]
+      },
       "path": "~/oggetti"
     },
     {
@@ -15,7 +21,10 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tab"
+      "registry_name": "tab",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Trero10",
@@ -24,6 +33,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "trero_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/item/Trero10Item.java",
+          "src/main/resources/assets/dj_mod/models/item/trero_10.json"
+        ]
+      },
       "path": "~/oggetti"
     },
     {
@@ -33,6 +48,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "givetrero",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/command/GivetreroCommand.java"
+        ]
+      },
       "path": "~/comandi"
     },
     {
@@ -43,6 +63,9 @@
       "locked_code": false,
       "registry_name": "givetrerod",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/procedures/GivetrerodProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -71,6 +94,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "martello_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dj_mod/models/item/martello_op.json",
+          "src/main/java/net/mcreator/djmod/item/CosaOPItem.java"
+        ]
+      },
       "path": "~/oggetti/martello_OP"
     },
     {
@@ -80,6 +109,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "martello_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/recipes/martello_op.json"
+        ]
+      },
       "path": "~/ricette/ricetta_OP"
     },
     {
@@ -89,6 +123,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blocco_testa_martello_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dj_mod/models/block/blocco_testa_martello_op.json",
+          "src/main/resources/assets/dj_mod/blockstates/blocco_testa_martello_op.json",
+          "src/main/java/net/mcreator/djmod/block/CraftmartelloOPBlock.java",
+          "src/main/resources/assets/dj_mod/models/item/blocco_testa_martello_op.json"
+        ]
+      },
       "path": "~/blocchi"
     },
     {
@@ -98,6 +140,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "testamartello_op",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/item/TestamartelloOPItem.java",
+          "src/main/resources/assets/dj_mod/models/item/testamartello_op.json"
+        ]
+      },
       "path": "~/oggetti/martello_OP"
     },
     {
@@ -107,6 +155,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "martello_o_padv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/advancements/martello_o_padv.json"
+        ]
+      },
       "path": "~/adv"
     },
     {
@@ -116,6 +169,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fattoadvmartello_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/functions/fattoadvmartello_op.mcfunction"
+        ]
+      },
       "path": "~/funzioni"
     },
     {
@@ -125,6 +183,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "portafoglio_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/network/PortafoglioButtonMessage.java",
+          "src/main/java/net/mcreator/djmod/client/gui/PortafoglioScreen.java",
+          "src/main/java/net/mcreator/djmod/world/inventory/PortafoglioMenu.java"
+        ]
+      },
       "path": "~/gui"
     },
     {
@@ -135,6 +200,9 @@
       "locked_code": false,
       "registry_name": "x_10trero",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/procedures/X10treroProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -168,6 +236,9 @@
       "locked_code": false,
       "registry_name": "xtrero",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/procedures/XtreroProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -200,6 +271,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "saccaportafoglio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/item/SaccaportafoglioItem.java",
+          "src/main/resources/assets/dj_mod/models/item/saccaportafoglio.json",
+          "src/main/java/net/mcreator/djmod/item/inventory/SaccaportafoglioInventoryCapability.java"
+        ]
+      },
       "path": "~/oggetti"
     },
     {
@@ -208,7 +286,12 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dungeon_op"
+      "registry_name": "dungeon_op",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/world/features/DungeonOPFeature.java"
+        ]
+      }
     },
     {
       "name": "BiomaOP",
@@ -216,7 +299,13 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bioma_op"
+      "registry_name": "bioma_op",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/world/features/treedecorators/BiomaOPFruitDecorator.java",
+          "src/main/java/net/mcreator/djmod/world/biome/BiomaOPBiome.java"
+        ]
+      }
     },
     {
       "name": "X510trero",
@@ -225,6 +314,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "x_510trero",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/functions/x_5_10trero.mcfunction"
+        ]
+      },
       "path": "~/funzioni"
     },
     {
@@ -234,6 +328,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ottieninetherite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/advancements/ottieninetherite.json"
+        ]
+      },
       "path": "~/adv/soldi"
     },
     {
@@ -243,6 +342,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "golem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/entity/GolemEntity.java",
+          "src/main/resources/assets/dj_mod/models/item/golem_spawn_egg.json",
+          "src/main/java/net/mcreator/djmod/client/renderer/GolemRenderer.java"
+        ]
+      },
       "path": "~/mob"
     },
     {
@@ -252,6 +358,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "freccia_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dj_mod/models/item/freccia_op.json",
+          "src/main/java/net/mcreator/djmod/item/FrecciaOPItem.java"
+        ]
+      },
       "path": "~/oggetti/martello_OP"
     },
     {
@@ -261,6 +373,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "animalevolante",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/entity/AnimalevolanteEntity.java",
+          "src/main/java/net/mcreator/djmod/client/renderer/AnimalevolanteRenderer.java",
+          "src/main/resources/assets/dj_mod/models/item/animalevolante_spawn_egg.json"
+        ]
+      },
       "path": "~/mob"
     },
     {
@@ -270,6 +389,12 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "golemgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/client/gui/GolemguiScreen.java",
+          "src/main/java/net/mcreator/djmod/world/inventory/GolemguiMenu.java"
+        ]
+      },
       "path": "~/gui"
     },
     {
@@ -279,6 +404,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "arco_op",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/item/ArcoOPItem.java",
+          "src/main/java/net/mcreator/djmod/entity/ArcoOPEntity.java",
+          "src/main/resources/assets/dj_mod/models/item/arco_op.json"
+        ]
+      },
       "path": "~/oggetti/martello_OP"
     },
     {
@@ -289,6 +421,9 @@
       "locked_code": false,
       "registry_name": "tato_op",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/procedures/Tato_OPProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -320,7 +455,12 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tasto_op"
+      "registry_name": "tasto_op",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/djmod/network/TastoOPMessage.java"
+        ]
+      }
     },
     {
       "name": "DimensioneOP",
@@ -330,7 +470,20 @@
       "locked_code": false,
       "registry_name": "dimensione_op",
       "metadata": {
-        "ep": true
+        "ep": true,
+        "files": [
+          "src/main/java/net/mcreator/djmod/world/dimension/DimensioneOPDimension.java",
+          "src/main/resources/data/dj_mod/dimension/dimensione_op.json",
+          "src/main/resources/assets/dj_mod/blockstates/dimensione_op_portal.json",
+          "src/main/resources/assets/dj_mod/models/block/dimensione_op_portal_ns.json",
+          "src/main/resources/assets/dj_mod/models/item/dimensione_op.json",
+          "src/main/java/net/mcreator/djmod/world/teleporter/DimensioneOPPortalShape.java",
+          "src/main/resources/data/dj_mod/dimension_type/dimensione_op.json",
+          "src/main/java/net/mcreator/djmod/block/DimensioneOPPortalBlock.java",
+          "src/main/java/net/mcreator/djmod/world/teleporter/DimensioneOPTeleporter.java",
+          "src/main/resources/assets/dj_mod/models/block/dimensione_op_portal_ew.json",
+          "src/main/java/net/mcreator/djmod/item/DimensioneOPItem.java"
+        ]
       }
     },
     {
@@ -340,6 +493,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "testaop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/recipes/testaop.json"
+        ]
+      },
       "path": "~/ricette/ricetta_OP"
     },
     {
@@ -348,7 +506,10 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "treroscambio"
+      "registry_name": "treroscambio",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Attivatore",
@@ -357,6 +518,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "attivatore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/recipes/attivatore.json"
+        ]
+      },
       "path": "~/ricette"
     },
     {
@@ -366,6 +532,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "portafogliocraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/recipes/portafogliocraft.json"
+        ]
+      },
       "path": "~/ricette"
     },
     {
@@ -379,7 +550,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/dj_mod/models/item/armaturaop_boots.json",
+          "src/main/resources/assets/dj_mod/models/item/armaturaop_helmet.json",
+          "src/main/java/net/mcreator/djmod/item/ArmaturaopItem.java",
+          "src/main/resources/assets/dj_mod/models/item/armaturaop_leggings.json",
+          "src/main/resources/assets/dj_mod/models/item/armaturaop_chestplate.json"
+        ]
       },
       "path": "~/oggetti"
     },
@@ -390,6 +568,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elmo_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/recipes/elmo_op.json"
+        ]
+      },
       "path": "~/ricette/ricetta_armor_OP"
     },
     {
@@ -399,6 +582,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "chestplate_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/recipes/chestplate_op.json"
+        ]
+      },
       "path": "~/ricette/ricetta_armor_OP"
     },
     {
@@ -408,6 +596,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stivali_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/recipes/stivali_op.json"
+        ]
+      },
       "path": "~/ricette/ricetta_armor_OP"
     },
     {
@@ -417,6 +610,11 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pantaloni_op",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dj_mod/recipes/pantaloni_op.json"
+        ]
+      },
       "path": "~/ricette/ricetta_armor_OP"
     }
   ],
@@ -431,6 +629,7 @@
       "block.dj_mod.blocco_testa_martello_op": "Blocco OP",
       "item.dj_mod.animalevolante_spawn_egg": "Animale volante Spawn Egg",
       "advancements.martello_o_padv.descr": "crafta un martello OP",
+      "gui.dj_mod.golemgui.label_inventario_golem": "Inventario golem",
       "entity.dj_mod.animalevolante": "Animale volante",
       "item.dj_mod.golem_spawn_egg": "Golem Spawn Egg",
       "item.dj_mod.freccia_op": "Freccia OP",
@@ -446,10 +645,12 @@
       "item.dj_mod.armaturaop_helmet": "Elmo OP",
       "item.dj_mod.armaturaop_chestplate": "Corazza OP",
       "item.dj_mod.saccaportafoglio": "Portafoglio",
+      "gui.dj_mod.portafoglio_gui.button_x1_10_trero": "X1 10 Trero",
       "item.dj_mod.arco_op": "Martello OP",
       "advancements.ottieninetherite.title": "Ottieni netherite",
       "advancements.ottieninetherite.descr": "Ottieni un lingotto di netherite",
       "item.dj_mod.martello_op": "Martello OP",
+      "gui.dj_mod.portafoglio_gui.button_x1_trero": "X1 Trero",
       "itemGroup.tabtab": "dj 2828\u0027s mod"
     }
   },
@@ -538,5 +739,5 @@
     "modElementsPackage": "net.mcreator.djmod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300110610
 }

@@ -45,7 +45,6 @@ public class DjModModFeatures {
 		}
 	}
 
-	private static record FeatureRegistration(GenerationStep.Decoration stage, Set<ResourceLocation> biomes,
-			Supplier<Holder<PlacedFeature>> placedFeature) {
+	private static record FeatureRegistration(GenerationStep.Decoration stage, Set<ResourceLocation> biomes, Supplier<Holder<PlacedFeature>> placedFeature) {
 	}
 }

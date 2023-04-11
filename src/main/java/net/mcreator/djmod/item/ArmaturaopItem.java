@@ -83,12 +83,9 @@ public abstract class ArmaturaopItem extends ArmorItem {
 				@Override
 				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("head", new Modelelmo_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelelmo_OP.LAYER_LOCATION)).bone,
-									"hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
+							Map.of("head", new Modelelmo_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelelmo_OP.LAYER_LOCATION)).bone, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
@@ -114,16 +111,10 @@ public abstract class ArmaturaopItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body",
-							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone,
-							"left_arm",
-							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2,
-							"right_arm",
-							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2,
-							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone, "left_arm",
+							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2, "right_arm",
+							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();
@@ -148,15 +139,11 @@ public abstract class ArmaturaopItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("left_leg",
-							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2,
-							"right_leg",
-							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2,
-							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
+							Map.of("left_leg", new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2, "right_leg",
+									new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();
@@ -181,15 +168,11 @@ public abstract class ArmaturaopItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("left_leg",
-							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2,
-							"right_leg",
-							new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2,
-							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-							new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
+							Map.of("left_leg", new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2, "right_leg",
+									new Modelchestplate_OP(Minecraft.getInstance().getEntityModels().bakeLayer(Modelchestplate_OP.LAYER_LOCATION)).bone2, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()),
+									"left_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();

@@ -75,7 +75,6 @@ public class PortafoglioButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		DjModMod.addNetworkMessage(PortafoglioButtonMessage.class, PortafoglioButtonMessage::buffer, PortafoglioButtonMessage::new,
-				PortafoglioButtonMessage::handler);
+		DjModMod.addNetworkMessage(PortafoglioButtonMessage.class, PortafoglioButtonMessage::buffer, PortafoglioButtonMessage::new, PortafoglioButtonMessage::handler);
 	}
 }

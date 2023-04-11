@@ -24,15 +24,12 @@ import net.mcreator.djmod.DjModMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DjModModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, DjModMod.MODID);
-	public static final RegistryObject<EntityType<GolemEntity>> GOLEM = register("golem",
-			EntityType.Builder.<GolemEntity>of(GolemEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
-					.setUpdateInterval(3).setCustomClientFactory(GolemEntity::new).fireImmune().sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<AnimalevolanteEntity>> ANIMALEVOLANTE = register("animalevolante",
-			EntityType.Builder.<AnimalevolanteEntity>of(AnimalevolanteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AnimalevolanteEntity::new).fireImmune().sized(0.6f, 1f));
 	public static final RegistryObject<EntityType<ArcoOPEntity>> ARCO_OP = register("projectile_arco_op",
-			EntityType.Builder.<ArcoOPEntity>of(ArcoOPEntity::new, MobCategory.MISC).setCustomClientFactory(ArcoOPEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+			EntityType.Builder.<ArcoOPEntity>of(ArcoOPEntity::new, MobCategory.MISC).setCustomClientFactory(ArcoOPEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<GolemEntity>> GOLEM = register("golem",
+			EntityType.Builder.<GolemEntity>of(GolemEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GolemEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<AnimalevolanteEntity>> ANIMALEVOLANTE = register("animalevolante", EntityType.Builder.<AnimalevolanteEntity>of(AnimalevolanteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(AnimalevolanteEntity::new).fireImmune().sized(0.6f, 1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

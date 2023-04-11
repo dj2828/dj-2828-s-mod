@@ -31,10 +31,8 @@ public class DimensioneOPDimension {
 			replaceableBlocks.add(Blocks.QUARTZ_BLOCK);
 			replaceableBlocks.add(Blocks.DIAMOND_BLOCK);
 			event.enqueueWork(() -> {
-				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks)
-						.addAll(replaceableBlocks).build();
-				WorldCarver.CANYON.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CANYON.replaceableBlocks)
-						.addAll(replaceableBlocks).build();
+				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks).addAll(replaceableBlocks).build();
+				WorldCarver.CANYON.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CANYON.replaceableBlocks).addAll(replaceableBlocks).build();
 			});
 		}
 

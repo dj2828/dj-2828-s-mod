@@ -6,6 +6,7 @@
   "block.dj_mod.blocco_testa_martello_op": "Blocco OP",
   "item.dj_mod.animalevolante_spawn_egg": "Animale volante Spawn Egg",
   "advancements.martello_o_padv.descr": "crafta un martello OP",
+  "gui.dj_mod.golemgui.label_inventario_golem": "Inventario golem",
   "entity.dj_mod.animalevolante": "Animale volante",
   "item.dj_mod.golem_spawn_egg": "Golem Spawn Egg",
   "item.dj_mod.freccia_op": "Freccia OP",
@@ -21,9 +22,11 @@
   "item.dj_mod.armaturaop_helmet": "Elmo OP",
   "item.dj_mod.armaturaop_chestplate": "Corazza OP",
   "item.dj_mod.saccaportafoglio": "Portafoglio",
+  "gui.dj_mod.portafoglio_gui.button_x1_10_trero": "X1 10 Trero",
   "item.dj_mod.arco_op": "Martello OP",
   "advancements.ottieninetherite.title": "Ottieni netherite",
   "advancements.ottieninetherite.descr": "Ottieni un lingotto di netherite",
   "item.dj_mod.martello_op": "Martello OP",
+  "gui.dj_mod.portafoglio_gui.button_x1_trero": "X1 Trero",
   "itemGroup.tabtab": "dj 2828\u0027s mod"
 }

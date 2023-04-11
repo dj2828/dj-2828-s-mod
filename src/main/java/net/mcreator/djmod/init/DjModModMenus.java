@@ -21,8 +21,7 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DjModModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
-	public static final MenuType<PortafoglioMenu> PORTAFOGLIO_GUI = register("portafoglio_gui",
-			(id, inv, extraData) -> new PortafoglioMenu(id, inv, extraData));
+	public static final MenuType<PortafoglioMenu> PORTAFOGLIO_GUI = register("portafoglio_gui", (id, inv, extraData) -> new PortafoglioMenu(id, inv, extraData));
 	public static final MenuType<GolemguiMenu> GOLEMGUI = register("golemgui", (id, inv, extraData) -> new GolemguiMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {

@@ -18,8 +18,8 @@ import net.mcreator.djmod.client.renderer.AnimalevolanteRenderer;
 public class DjModModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+		event.registerEntityRenderer(DjModModEntities.ARCO_OP.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(DjModModEntities.GOLEM.get(), GolemRenderer::new);
 		event.registerEntityRenderer(DjModModEntities.ANIMALEVOLANTE.get(), AnimalevolanteRenderer::new);
-		event.registerEntityRenderer(DjModModEntities.ARCO_OP.get(), ThrownItemRenderer::new);
 	}
 }

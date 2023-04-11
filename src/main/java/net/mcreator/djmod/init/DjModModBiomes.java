@@ -56,8 +56,9 @@ public class DjModModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
-					parameters.add(new Pair<>(BiomaOPBiome.PARAMETER_POINT,
-							biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, BIOMA_OP.getId()))));
+					for (Climate.ParameterPoint parameterPoint : BiomaOPBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, BIOMA_OP.getId()))));
+					}
 
 					MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters), noiseSource.preset);
 					chunkGenerator.biomeSource = moddedNoiseSource;
@@ -70,14 +71,10 @@ public class DjModModBiomes {
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 						surfaceRules.add(1,
-								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BIOMA_OP.getId()),
-										Blocks.QUARTZ_BLOCK.defaultBlockState(), Blocks.DIAMOND_BLOCK.defaultBlockState(),
-										Blocks.DIAMOND_BLOCK.defaultBlockState()));
-						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
-								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),
-								SurfaceRules.sequence(surfaceRules.toArray(i -> new SurfaceRules.RuleSource[i])), noiseGeneratorSettings.seaLevel(),
-								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(),
-								noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
+								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BIOMA_OP.getId()), Blocks.QUARTZ_BLOCK.defaultBlockState(), Blocks.DIAMOND_BLOCK.defaultBlockState(), Blocks.DIAMOND_BLOCK.defaultBlockState()));
+						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
+								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(i -> new SurfaceRules.RuleSource[i])), noiseGeneratorSettings.seaLevel(), noiseGeneratorSettings.disableMobGeneration(),
+								noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
 						noiseGenerator.settings = new Holder.Direct(moddedNoiseGeneratorSettings);
 					}
 				}
@@ -86,17 +83,12 @@ public class DjModModBiomes {
 		}
 	}
 
-	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock,
-			BlockState underwaterBlock) {
-		return SurfaceRules
-				.ifTrue(SurfaceRules.isBiome(biomeKey),
-						SurfaceRules
-								.ifTrue(SurfaceRules.abovePreliminarySurface(),
-										SurfaceRules.sequence(
-												SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
-														SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0),
-																SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
-												SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR),
-														SurfaceRules.state(undergroundBlock)))));
+	private static SurfaceRules.RuleSource preliminarySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock, BlockState underwaterBlock) {
+		return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+				SurfaceRules.ifTrue(SurfaceRules.abovePreliminarySurface(),
+						SurfaceRules.sequence(
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+										SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
+								SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock)))));
 	}
 }

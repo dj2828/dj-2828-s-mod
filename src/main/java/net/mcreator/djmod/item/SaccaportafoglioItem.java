@@ -82,8 +82,7 @@ public class SaccaportafoglioItem extends Item {
 	public CompoundTag getShareTag(ItemStack stack) {
 		CompoundTag nbt = super.getShareTag(stack);
 		if (nbt != null)
-			stack.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
-					.ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
+			stack.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
 		return nbt;
 	}
 
@@ -91,7 +90,6 @@ public class SaccaportafoglioItem extends Item {
 	public void readShareTag(ItemStack stack, @Nullable CompoundTag nbt) {
 		super.readShareTag(stack, nbt);
 		if (nbt != null)
-			stack.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
-					.ifPresent(capability -> ((ItemStackHandler) capability).deserializeNBT((CompoundTag) nbt.get("Inventory")));
+			stack.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> ((ItemStackHandler) capability).deserializeNBT((CompoundTag) nbt.get("Inventory")));
 	}
 }

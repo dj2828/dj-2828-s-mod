@@ -44,40 +44,23 @@ public class Modelgolem<T extends Entity> extends EntityModel<T> {
 	public static LayerDefinition createBodyLayer() {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
-		PartDefinition gambasx = partdefinition.addOrReplaceChild("gambasx",
-				CubeListBuilder.create().texOffs(18, 18).addBox(-1.0F, 0.0F, -2.0F, 2.0F, 3.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(-2.0F, 21.0F, 1.0F));
-		PartDefinition gambadx = partdefinition.addOrReplaceChild("gambadx",
-				CubeListBuilder.create().texOffs(10, 17).addBox(-1.0F, 0.0F, -2.0F, 2.0F, 3.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(2.0F, 21.0F, 1.0F));
-		PartDefinition busto = partdefinition
-				.addOrReplaceChild(
-						"busto", CubeListBuilder.create().texOffs(0, 0).addBox(-3.5F, -3.0F, -3.0F, 7.0F, 6.0F, 4.0F, new CubeDeformation(0.0F))
-								.texOffs(18, 0).addBox(-1.5F, -4.0F, -2.0F, 3.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)),
-						PartPose.offset(0.0F, 18.0F, 1.0F));
-		PartDefinition testa = partdefinition
-				.addOrReplaceChild("testa",
-						CubeListBuilder.create().texOffs(16, 15).addBox(-2.5F, -1.0F, -1.0F, 5.0F, 1.0F, 2.0F, new CubeDeformation(0.0F))
-								.texOffs(0, 10).addBox(-2.5F, -4.0F, -3.0F, 5.0F, 3.0F, 4.0F, new CubeDeformation(0.0F)),
-						PartPose.offset(0.0F, 14.0F, 1.0F));
-		PartDefinition bocca = testa.addOrReplaceChild("bocca",
-				CubeListBuilder.create().texOffs(14, 10).addBox(-2.5F, 0.0F, -3.0F, 5.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, -1.0F, 0.0F));
-		PartDefinition manodx = partdefinition.addOrReplaceChild("manodx",
-				CubeListBuilder.create().texOffs(22, 3).addBox(0.0F, 0.0F, -2.0F, 1.0F, 4.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(3.5F, 16.0F, 1.0F));
-		PartDefinition manosx = partdefinition.addOrReplaceChild("manosx",
-				CubeListBuilder.create().texOffs(0, 22).addBox(-1.0F, 0.0F, -2.0F, 1.0F, 4.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(-3.5F, 16.0F, 1.0F));
-		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main",
-				CubeListBuilder.create().texOffs(0, 17).addBox(-2.0F, -8.0F, 2.0F, 4.0F, 4.0F, 1.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 24.0F, 0.0F));
+		PartDefinition gambasx = partdefinition.addOrReplaceChild("gambasx", CubeListBuilder.create().texOffs(18, 18).addBox(-1.0F, 0.0F, -2.0F, 2.0F, 3.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(-2.0F, 21.0F, 1.0F));
+		PartDefinition gambadx = partdefinition.addOrReplaceChild("gambadx", CubeListBuilder.create().texOffs(10, 17).addBox(-1.0F, 0.0F, -2.0F, 2.0F, 3.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(2.0F, 21.0F, 1.0F));
+		PartDefinition busto = partdefinition.addOrReplaceChild("busto",
+				CubeListBuilder.create().texOffs(0, 0).addBox(-3.5F, -3.0F, -3.0F, 7.0F, 6.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(18, 0).addBox(-1.5F, -4.0F, -2.0F, 3.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 18.0F, 1.0F));
+		PartDefinition testa = partdefinition.addOrReplaceChild("testa",
+				CubeListBuilder.create().texOffs(16, 15).addBox(-2.5F, -1.0F, -1.0F, 5.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(0, 10).addBox(-2.5F, -4.0F, -3.0F, 5.0F, 3.0F, 4.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 14.0F, 1.0F));
+		PartDefinition bocca = testa.addOrReplaceChild("bocca", CubeListBuilder.create().texOffs(14, 10).addBox(-2.5F, 0.0F, -3.0F, 5.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, -1.0F, 0.0F));
+		PartDefinition manodx = partdefinition.addOrReplaceChild("manodx", CubeListBuilder.create().texOffs(22, 3).addBox(0.0F, 0.0F, -2.0F, 1.0F, 4.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(3.5F, 16.0F, 1.0F));
+		PartDefinition manosx = partdefinition.addOrReplaceChild("manosx", CubeListBuilder.create().texOffs(0, 22).addBox(-1.0F, 0.0F, -2.0F, 1.0F, 4.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(-3.5F, 16.0F, 1.0F));
+		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main", CubeListBuilder.create().texOffs(0, 17).addBox(-2.0F, -8.0F, 2.0F, 4.0F, 4.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 24.0F, 0.0F));
 		return LayerDefinition.create(meshdefinition, 32, 32);
 	}
 
 	@Override
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green,
-			float blue, float alpha) {
+	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		gambasx.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		gambadx.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		busto.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);

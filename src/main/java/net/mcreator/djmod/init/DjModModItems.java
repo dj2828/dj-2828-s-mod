@@ -27,22 +27,19 @@ import net.mcreator.djmod.DjModMod;
 
 public class DjModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DjModMod.MODID);
+	public static final RegistryObject<Item> SACCAPORTAFOGLIO = REGISTRY.register("saccaportafoglio", () -> new SaccaportafoglioItem());
 	public static final RegistryObject<Item> TRERO = REGISTRY.register("trero", () -> new TreroItem());
 	public static final RegistryObject<Item> TRERO_10 = REGISTRY.register("trero_10", () -> new Trero10Item());
 	public static final RegistryObject<Item> MARTELLO_OP = REGISTRY.register("martello_op", () -> new CosaOPItem());
-	public static final RegistryObject<Item> BLOCCO_TESTA_MARTELLO_OP = block(DjModModBlocks.BLOCCO_TESTA_MARTELLO_OP, DjModModTabs.TAB_TAB);
-	public static final RegistryObject<Item> TESTAMARTELLO_OP = REGISTRY.register("testamartello_op", () -> new TestamartelloOPItem());
-	public static final RegistryObject<Item> SACCAPORTAFOGLIO = REGISTRY.register("saccaportafoglio", () -> new SaccaportafoglioItem());
-	public static final RegistryObject<Item> GOLEM = REGISTRY.register("golem_spawn_egg",
-			() -> new ForgeSpawnEggItem(DjModModEntities.GOLEM, -11513776, -43776, new Item.Properties().tab(DjModModTabs.TAB_TAB)));
 	public static final RegistryObject<Item> FRECCIA_OP = REGISTRY.register("freccia_op", () -> new FrecciaOPItem());
-	public static final RegistryObject<Item> ANIMALEVOLANTE = REGISTRY.register("animalevolante_spawn_egg",
-			() -> new ForgeSpawnEggItem(DjModModEntities.ANIMALEVOLANTE, -43776, -16776706, new Item.Properties().tab(DjModModTabs.TAB_TAB)));
 	public static final RegistryObject<Item> ARCO_OP = REGISTRY.register("arco_op", () -> new ArcoOPItem());
+	public static final RegistryObject<Item> TESTAMARTELLO_OP = REGISTRY.register("testamartello_op", () -> new TestamartelloOPItem());
+	public static final RegistryObject<Item> BLOCCO_TESTA_MARTELLO_OP = block(DjModModBlocks.BLOCCO_TESTA_MARTELLO_OP, DjModModTabs.TAB_TAB);
+	public static final RegistryObject<Item> GOLEM_SPAWN_EGG = REGISTRY.register("golem_spawn_egg", () -> new ForgeSpawnEggItem(DjModModEntities.GOLEM, -11513776, -43776, new Item.Properties().tab(DjModModTabs.TAB_TAB)));
+	public static final RegistryObject<Item> ANIMALEVOLANTE_SPAWN_EGG = REGISTRY.register("animalevolante_spawn_egg", () -> new ForgeSpawnEggItem(DjModModEntities.ANIMALEVOLANTE, -43776, -16776706, new Item.Properties().tab(DjModModTabs.TAB_TAB)));
 	public static final RegistryObject<Item> DIMENSIONE_OP = REGISTRY.register("dimensione_op", () -> new DimensioneOPItem());
 	public static final RegistryObject<Item> ARMATURAOP_HELMET = REGISTRY.register("armaturaop_helmet", () -> new ArmaturaopItem.Helmet());
-	public static final RegistryObject<Item> ARMATURAOP_CHESTPLATE = REGISTRY.register("armaturaop_chestplate",
-			() -> new ArmaturaopItem.Chestplate());
+	public static final RegistryObject<Item> ARMATURAOP_CHESTPLATE = REGISTRY.register("armaturaop_chestplate", () -> new ArmaturaopItem.Chestplate());
 	public static final RegistryObject<Item> ARMATURAOP_LEGGINGS = REGISTRY.register("armaturaop_leggings", () -> new ArmaturaopItem.Leggings());
 	public static final RegistryObject<Item> ARMATURAOP_BOOTS = REGISTRY.register("armaturaop_boots", () -> new ArmaturaopItem.Boots());
 

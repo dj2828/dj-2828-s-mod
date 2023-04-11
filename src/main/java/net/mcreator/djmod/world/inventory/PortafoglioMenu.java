@@ -79,49 +79,49 @@ public class PortafoglioMenu extends AbstractContainerMenu implements Supplier<M
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 8, 14) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (DjModModItems.TRERO.get() == stack.getItem());
+				return DjModModItems.TRERO.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 26, 14) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (DjModModItems.TRERO.get() == stack.getItem());
+				return DjModModItems.TRERO.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 44, 14) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (DjModModItems.TRERO.get() == stack.getItem());
+				return DjModModItems.TRERO.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 62, 14) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (DjModModItems.TRERO.get() == stack.getItem());
+				return DjModModItems.TRERO.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 8, 41) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (DjModModItems.TRERO_10.get() == stack.getItem());
+				return DjModModItems.TRERO_10.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 26, 41) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (DjModModItems.TRERO_10.get() == stack.getItem());
+				return DjModModItems.TRERO_10.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 44, 41) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (DjModModItems.TRERO_10.get() == stack.getItem());
+				return DjModModItems.TRERO_10.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 62, 41) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return (DjModModItems.TRERO_10.get() == stack.getItem());
+				return DjModModItems.TRERO_10.get() == stack.getItem();
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
